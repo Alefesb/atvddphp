@@ -8,15 +8,10 @@
 <body>
     
     <?php
-    
-    $g1 = $_GET("p1","v1");
-    
-    $menorque50;
-    if ($v1 < 50){
-        $v1 + $menorque50;
-        echo ("$menorque50");
-    }
-    
+    $p1 = $_GET("p1");
+    $v1 = $_GET("v1");
+   
+    echo $p1 . ' ' . $v1;
     ?>
 </body>
 </html>

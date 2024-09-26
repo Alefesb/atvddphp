@@ -10,9 +10,12 @@
     <?php
     
     $g1 = $_GET("p1","v1");
-    $g2 = $_GET("p2", "v2");
     
-    if ()
+    $menorque50;
+    if ($v1 < 50){
+        $v1 + $menorque50;
+        echo ("$menorque50");
+    }
     
     ?>
 </body>
